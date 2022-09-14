@@ -1,0 +1,142 @@
+
+body{
+    background-color: 	rgb(24,24,24);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.flex-container {
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.background-image{
+    flex: .6;
+    position: relative;
+    background-image: url("emily-hoehenrieder-D_mdH-d0UJ8-unsplash.jpg");
+    width: 20vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.card-body{
+  position: relative;
+  width: 100%;
+  height: 110px;
+  background:rgba(52, 54, 60, 0.5);
+  color: rgb(255, 255, 255);
+  top: 30vh;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: roboto;
+}
+
+.card-body :first-child{
+    padding-right: 10px;
+}
+
+.card-body:last-child{
+    position: relative;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-body>*{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 3rem;
+    height: 4rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.form-container{
+    flex: 1;
+    background-color: rgb(253, 253, 253);
+}
+
+.form-intro{
+    font-weight: bold;
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    padding-top: 20%;
+}
+
+form{
+}
+
+.form-title-box{
+    background-color:white;
+    padding-top: 1px;
+    padding-bottom: 25px;
+    box-shadow: 0px 1px 10px #aaaaaa;
+}
+
+.form-box{
+    display: flex;
+    padding-left: 30px;
+    justify-content: left;
+}
+
+.form-column1{
+    flex:1;
+}
+
+.form-column2{
+    flex:1;
+}
+
+label,input{
+    font-size: .5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+
+}
+input{
+    font-size: 1rem;
+    font-weight: normal;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style:solid;
+    width: 80%;
+    border-color: #E5E7EB;
+    margin-bottom: 15px;
+}
+
+input:focus{
+    outline: none !important;
+    border:1px solid blue;
+    box-shadow: 0px 2px 3px #aaaaaa;
+}
+
+input:invalid{
+    outline: none !important;
+    border:1px solid red;
+}
+
+button{
+    background-color: rgb(114, 185, 247);
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 30px;
+    margin-top: 35px;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    box-shadow: 0px 2px 3px #aaaaaa;
+}
+
+a{
+    color: rgb(114, 185, 247);
+    text-decoration: none;
+}
+
+
